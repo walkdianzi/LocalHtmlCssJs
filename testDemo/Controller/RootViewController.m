@@ -18,7 +18,8 @@
                
                @"HTML":@[
                             @"HTMLString",
-                            @"HTMLFile"
+                            @"HTMLFile",
+                            @"HTMLDown"
                         ],
              };
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
@@ -54,6 +55,8 @@
     UIViewController *controller = [[class alloc] init];
     controller.title = name;
     [self.navigationController pushViewController:controller animated:YES];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 @end

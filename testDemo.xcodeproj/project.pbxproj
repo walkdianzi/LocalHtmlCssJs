@@ -11,6 +11,15 @@
 		1367BBC41C3BDF4A00E0716B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBC21C3BDF4A00E0716B /* RootViewController.m */; };
 		1367BBC71C3BDFF600E0716B /* HTMLStringDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBC61C3BDFF600E0716B /* HTMLStringDemoViewController.m */; };
 		1367BBCA1C3BE21500E0716B /* HTMLFileDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBC91C3BE21500E0716B /* HTMLFileDemoViewController.m */; };
+		1367BBDA1C3BED2E00E0716B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBD01C3BED2E00E0716B /* ioapi.c */; };
+		1367BBDB1C3BED2E00E0716B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBD21C3BED2E00E0716B /* mztools.c */; };
+		1367BBDC1C3BED2E00E0716B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBD41C3BED2E00E0716B /* unzip.c */; };
+		1367BBDD1C3BED2E00E0716B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBD61C3BED2E00E0716B /* zip.c */; };
+		1367BBDE1C3BED2E00E0716B /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBD91C3BED2E00E0716B /* ZipArchive.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1367BBE11C3BED8000E0716B /* HTMLDownDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1367BBE01C3BED8000E0716B /* HTMLDownDemoViewController.m */; };
+		1367BBE31C3BEE7200E0716B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1367BBE21C3BEE7200E0716B /* libz.tbd */; };
+		1367BBE51C3BEE7F00E0716B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1367BBE41C3BEE7F00E0716B /* AssetsLibrary.framework */; };
+		1367BBE71C3BEE8900E0716B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1367BBE61C3BEE8900E0716B /* MobileCoreServices.framework */; };
 		F953AF7D1BF9749300E6712C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF7C1BF9749300E6712C /* main.m */; };
 		F953AF801BF9749300E6712C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F953AF7F1BF9749300E6712C /* AppDelegate.m */; };
 		F953AF861BF9749300E6712C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F953AF841BF9749300E6712C /* Main.storyboard */; };
@@ -50,6 +59,22 @@
 		1367BBC61C3BDFF600E0716B /* HTMLStringDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLStringDemoViewController.m; sourceTree = "<group>"; };
 		1367BBC81C3BE21500E0716B /* HTMLFileDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLFileDemoViewController.h; sourceTree = "<group>"; };
 		1367BBC91C3BE21500E0716B /* HTMLFileDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLFileDemoViewController.m; sourceTree = "<group>"; };
+		1367BBCF1C3BED2E00E0716B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		1367BBD01C3BED2E00E0716B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		1367BBD11C3BED2E00E0716B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		1367BBD21C3BED2E00E0716B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		1367BBD31C3BED2E00E0716B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		1367BBD41C3BED2E00E0716B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		1367BBD51C3BED2E00E0716B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		1367BBD61C3BED2E00E0716B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		1367BBD71C3BED2E00E0716B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		1367BBD81C3BED2E00E0716B /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		1367BBD91C3BED2E00E0716B /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		1367BBDF1C3BED8000E0716B /* HTMLDownDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDownDemoViewController.h; sourceTree = "<group>"; };
+		1367BBE01C3BED8000E0716B /* HTMLDownDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDownDemoViewController.m; sourceTree = "<group>"; };
+		1367BBE21C3BEE7200E0716B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1367BBE41C3BEE7F00E0716B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1367BBE61C3BEE8900E0716B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F953AF781BF9749300E6712C /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F953AF7C1BF9749300E6712C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F953AF7E1BF9749300E6712C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1367BBE71C3BEE8900E0716B /* MobileCoreServices.framework in Frameworks */,
+				1367BBE51C3BEE7F00E0716B /* AssetsLibrary.framework in Frameworks */,
+				1367BBE31C3BEE7200E0716B /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +134,52 @@
 				1367BBC61C3BDFF600E0716B /* HTMLStringDemoViewController.m */,
 				1367BBC81C3BE21500E0716B /* HTMLFileDemoViewController.h */,
 				1367BBC91C3BE21500E0716B /* HTMLFileDemoViewController.m */,
+				1367BBDF1C3BED8000E0716B /* HTMLDownDemoViewController.h */,
+				1367BBE01C3BED8000E0716B /* HTMLDownDemoViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		1367BBCC1C3BED2E00E0716B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1367BBCD1C3BED2E00E0716B /* ZipArchive */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		1367BBCD1C3BED2E00E0716B /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				1367BBCE1C3BED2E00E0716B /* minizip */,
+				1367BBD81C3BED2E00E0716B /* ZipArchive.h */,
+				1367BBD91C3BED2E00E0716B /* ZipArchive.mm */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		1367BBCE1C3BED2E00E0716B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				1367BBCF1C3BED2E00E0716B /* crypt.h */,
+				1367BBD01C3BED2E00E0716B /* ioapi.c */,
+				1367BBD11C3BED2E00E0716B /* ioapi.h */,
+				1367BBD21C3BED2E00E0716B /* mztools.c */,
+				1367BBD31C3BED2E00E0716B /* mztools.h */,
+				1367BBD41C3BED2E00E0716B /* unzip.c */,
+				1367BBD51C3BED2E00E0716B /* unzip.h */,
+				1367BBD61C3BED2E00E0716B /* zip.c */,
+				1367BBD71C3BED2E00E0716B /* zip.h */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 		F953AF6F1BF9749300E6712C = {
 			isa = PBXGroup;
 			children = (
+				1367BBE61C3BEE8900E0716B /* MobileCoreServices.framework */,
+				1367BBE41C3BEE7F00E0716B /* AssetsLibrary.framework */,
+				1367BBE21C3BEE7200E0716B /* libz.tbd */,
 				F953AF7A1BF9749300E6712C /* testDemo */,
 				F953AF941BF9749300E6712C /* testDemoTests */,
 				F953AF9F1BF9749300E6712C /* testDemoUITests */,
@@ -133,6 +200,7 @@
 		F953AF7A1BF9749300E6712C /* testDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1367BBCC1C3BED2E00E0716B /* Lib */,
 				1367BBBE1C3BDF4A00E0716B /* Controller */,
 				F953AF7E1BF9749300E6712C /* AppDelegate.h */,
 				F953AF7F1BF9749300E6712C /* AppDelegate.m */,
@@ -317,12 +385,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1367BBE11C3BED8000E0716B /* HTMLDownDemoViewController.m in Sources */,
+				1367BBDC1C3BED2E00E0716B /* unzip.c in Sources */,
 				1367BBCA1C3BE21500E0716B /* HTMLFileDemoViewController.m in Sources */,
 				1367BBC31C3BDF4A00E0716B /* BaseViewController.m in Sources */,
+				1367BBDE1C3BED2E00E0716B /* ZipArchive.mm in Sources */,
+				1367BBDD1C3BED2E00E0716B /* zip.c in Sources */,
+				1367BBDB1C3BED2E00E0716B /* mztools.c in Sources */,
 				F953AF801BF9749300E6712C /* AppDelegate.m in Sources */,
 				F953AF7D1BF9749300E6712C /* main.m in Sources */,
 				1367BBC41C3BDF4A00E0716B /* RootViewController.m in Sources */,
 				1367BBC71C3BDFF600E0716B /* HTMLStringDemoViewController.m in Sources */,
+				1367BBDA1C3BED2E00E0716B /* ioapi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

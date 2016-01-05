@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad{
     
-    UIWebView   *web = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [super viewDidLoad];
+    
+    UIWebView   *web = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height)];
     web.scalesPageToFit = YES;//自动对网页进行缩放以适应屏幕;
     web.dataDetectorTypes = UIDataDetectorTypeAll;//自动检测网页上的电话号码,网页链接,邮箱;
     web.delegate = self;
