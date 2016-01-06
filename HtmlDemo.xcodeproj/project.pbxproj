@@ -75,7 +75,7 @@
 		1367BBE21C3BEE7200E0716B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1367BBE41C3BEE7F00E0716B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		1367BBE61C3BEE8900E0716B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		F953AF781BF9749300E6712C /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F953AF781BF9749300E6712C /* HtmlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HtmlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F953AF7C1BF9749300E6712C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F953AF7E1BF9749300E6712C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F953AF7F1BF9749300E6712C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,10 +83,10 @@
 		F953AF871BF9749300E6712C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F953AF8A1BF9749300E6712C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F953AF8C1BF9749300E6712C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F953AF911BF9749300E6712C /* testDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F953AF911BF9749300E6712C /* HtmlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F953AF951BF9749300E6712C /* testDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemoTests.m; sourceTree = "<group>"; };
 		F953AF971BF9749300E6712C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F953AF9C1BF9749300E6712C /* testDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F953AF9C1BF9749300E6712C /* HtmlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F953AFA01BF9749300E6712C /* testDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemoUITests.m; sourceTree = "<group>"; };
 		F953AFA21BF9749300E6712C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F953AFB41BF9ACF600E6712C /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
@@ -190,9 +190,9 @@
 		F953AF791BF9749300E6712C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F953AF781BF9749300E6712C /* testDemo.app */,
-				F953AF911BF9749300E6712C /* testDemoTests.xctest */,
-				F953AF9C1BF9749300E6712C /* testDemoUITests.xctest */,
+				F953AF781BF9749300E6712C /* HtmlDemo.app */,
+				F953AF911BF9749300E6712C /* HtmlDemoTests.xctest */,
+				F953AF9C1BF9749300E6712C /* HtmlDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F953AF771BF9749300E6712C /* testDemo */ = {
+		F953AF771BF9749300E6712C /* HtmlDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F953AFA51BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemo" */;
+			buildConfigurationList = F953AFA51BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemo" */;
 			buildPhases = (
 				F953AF741BF9749300E6712C /* Sources */,
 				F953AF751BF9749300E6712C /* Frameworks */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = testDemo;
+			name = HtmlDemo;
 			productName = testDemo;
-			productReference = F953AF781BF9749300E6712C /* testDemo.app */;
+			productReference = F953AF781BF9749300E6712C /* HtmlDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F953AF901BF9749300E6712C /* testDemoTests */ = {
+		F953AF901BF9749300E6712C /* HtmlDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F953AFA81BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemoTests" */;
+			buildConfigurationList = F953AFA81BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemoTests" */;
 			buildPhases = (
 				F953AF8D1BF9749300E6712C /* Sources */,
 				F953AF8E1BF9749300E6712C /* Frameworks */,
@@ -284,14 +284,14 @@
 			dependencies = (
 				F953AF931BF9749300E6712C /* PBXTargetDependency */,
 			);
-			name = testDemoTests;
+			name = HtmlDemoTests;
 			productName = testDemoTests;
-			productReference = F953AF911BF9749300E6712C /* testDemoTests.xctest */;
+			productReference = F953AF911BF9749300E6712C /* HtmlDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F953AF9B1BF9749300E6712C /* testDemoUITests */ = {
+		F953AF9B1BF9749300E6712C /* HtmlDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F953AFAB1BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemoUITests" */;
+			buildConfigurationList = F953AFAB1BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemoUITests" */;
 			buildPhases = (
 				F953AF981BF9749300E6712C /* Sources */,
 				F953AF991BF9749300E6712C /* Frameworks */,
@@ -302,9 +302,9 @@
 			dependencies = (
 				F953AF9E1BF9749300E6712C /* PBXTargetDependency */,
 			);
-			name = testDemoUITests;
+			name = HtmlDemoUITests;
 			productName = testDemoUITests;
-			productReference = F953AF9C1BF9749300E6712C /* testDemoUITests.xctest */;
+			productReference = F953AF9C1BF9749300E6712C /* HtmlDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F953AF731BF9749300E6712C /* Build configuration list for PBXProject "testDemo" */;
+			buildConfigurationList = F953AF731BF9749300E6712C /* Build configuration list for PBXProject "HtmlDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -342,9 +342,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F953AF771BF9749300E6712C /* testDemo */,
-				F953AF901BF9749300E6712C /* testDemoTests */,
-				F953AF9B1BF9749300E6712C /* testDemoUITests */,
+				F953AF771BF9749300E6712C /* HtmlDemo */,
+				F953AF901BF9749300E6712C /* HtmlDemoTests */,
+				F953AF9B1BF9749300E6712C /* HtmlDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -421,12 +421,12 @@
 /* Begin PBXTargetDependency section */
 		F953AF931BF9749300E6712C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F953AF771BF9749300E6712C /* testDemo */;
+			target = F953AF771BF9749300E6712C /* HtmlDemo */;
 			targetProxy = F953AF921BF9749300E6712C /* PBXContainerItemProxy */;
 		};
 		F953AF9E1BF9749300E6712C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F953AF771BF9749300E6712C /* testDemo */;
+			target = F953AF771BF9749300E6712C /* HtmlDemo */;
 			targetProxy = F953AF9D1BF9749300E6712C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -539,7 +539,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dasheng.HtmlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -550,7 +550,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = testDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = dasheng.HtmlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -562,8 +562,8 @@
 				INFOPLIST_FILE = testDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testDemo.app/testDemo";
+				PRODUCT_NAME = HtmlDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HtmlDemo.app/HtmlDemo";
 			};
 			name = Debug;
 		};
@@ -574,8 +574,8 @@
 				INFOPLIST_FILE = testDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testDemo.app/testDemo";
+				PRODUCT_NAME = HtmlDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HtmlDemo.app/HtmlDemo";
 			};
 			name = Release;
 		};
@@ -585,7 +585,7 @@
 				INFOPLIST_FILE = testDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HtmlDemoTests;
 				TEST_TARGET_NAME = testDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -597,7 +597,7 @@
 				INFOPLIST_FILE = testDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.testDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HtmlDemoTests;
 				TEST_TARGET_NAME = testDemo;
 				USES_XCTRUNNER = YES;
 			};
@@ -606,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F953AF731BF9749300E6712C /* Build configuration list for PBXProject "testDemo" */ = {
+		F953AF731BF9749300E6712C /* Build configuration list for PBXProject "HtmlDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F953AFA31BF9749300E6712C /* Debug */,
@@ -615,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F953AFA51BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemo" */ = {
+		F953AFA51BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F953AFA61BF9749300E6712C /* Debug */,
@@ -624,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F953AFA81BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemoTests" */ = {
+		F953AFA81BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F953AFA91BF9749300E6712C /* Debug */,
@@ -633,7 +633,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F953AFAB1BF9749300E6712C /* Build configuration list for PBXNativeTarget "testDemoUITests" */ = {
+		F953AFAB1BF9749300E6712C /* Build configuration list for PBXNativeTarget "HtmlDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F953AFAC1BF9749300E6712C /* Debug */,

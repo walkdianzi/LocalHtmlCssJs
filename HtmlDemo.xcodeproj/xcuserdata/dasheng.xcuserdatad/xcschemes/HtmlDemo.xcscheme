@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F953AF771BF9749300E6712C"
-               BuildableName = "testDemo.app"
-               BlueprintName = "testDemo"
-               ReferencedContainer = "container:testDemo.xcodeproj">
+               BuildableName = "HtmlDemo.app"
+               BlueprintName = "HtmlDemo"
+               ReferencedContainer = "container:HtmlDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F953AF901BF9749300E6712C"
-               BuildableName = "testDemoTests.xctest"
-               BlueprintName = "testDemoTests"
-               ReferencedContainer = "container:testDemo.xcodeproj">
+               BuildableName = "HtmlDemoTests.xctest"
+               BlueprintName = "HtmlDemoTests"
+               ReferencedContainer = "container:HtmlDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F953AF9B1BF9749300E6712C"
-               BuildableName = "testDemoUITests.xctest"
-               BlueprintName = "testDemoUITests"
-               ReferencedContainer = "container:testDemo.xcodeproj">
+               BuildableName = "HtmlDemoTests.xctest"
+               BlueprintName = "HtmlDemoUITests"
+               ReferencedContainer = "container:HtmlDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F953AF771BF9749300E6712C"
-            BuildableName = "testDemo.app"
-            BlueprintName = "testDemo"
-            ReferencedContainer = "container:testDemo.xcodeproj">
+            BuildableName = "HtmlDemo.app"
+            BlueprintName = "HtmlDemo"
+            ReferencedContainer = "container:HtmlDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F953AF771BF9749300E6712C"
-            BuildableName = "testDemo.app"
-            BlueprintName = "testDemo"
-            ReferencedContainer = "container:testDemo.xcodeproj">
+            BuildableName = "HtmlDemo.app"
+            BlueprintName = "HtmlDemo"
+            ReferencedContainer = "container:HtmlDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F953AF771BF9749300E6712C"
-            BuildableName = "testDemo.app"
-            BlueprintName = "testDemo"
-            ReferencedContainer = "container:testDemo.xcodeproj">
+            BuildableName = "HtmlDemo.app"
+            BlueprintName = "HtmlDemo"
+            ReferencedContainer = "container:HtmlDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
