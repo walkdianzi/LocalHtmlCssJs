@@ -30,11 +30,10 @@
     
     
     /*这里是测试用的，为了看的清晰点，所以第一次打开还没下载好的时候页面是没显示的。
-     （这里的链接是我在360云盘上生成的下载链接，传上去的是个js,css,html的压缩文件）
+     （传上去的是个js,css,html的压缩文件）
      */
     
-    //  https://yunpan.cn/cuWbb2YmLMkza （提取码：ff10）。这里是360网盘的分享链接，由于下载链接会变，大家可自己打开这个网址去截取下载链接
-    [self DownloadTextFile:@"https://sdl53.yunpan.360.cn/share.php?method=Share.download&cqid=53e57accaf06ecfd7e1df65cdbc2cf71&dt=53.98f0e041121fcd72d134e3dffc928616&e=1453254040&fhash=2466ea82666747bef71c7985d0af4c7b4e2cc33e&fname=www.zip&fsize=19655&nid=14519980256161843&st=abc4fecd5067342764f2030b54995cf0&xqid=2536387443" fileName:@"www.zip"];
+    [self DownloadTextFile:@"http://7xj2go.com2.z0.glb.qiniucdn.com/www.zip" fileName:@"www.zip"];
 }
 
 
